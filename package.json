@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "classnames": "^2.5.1",
+    "classNames": "^2.5.1",
     "@emailjs/browser": "^4.3.3",
     "@studio-freight/lenis": "^1.0.42",
     "flowbite": "^2.3.0",
