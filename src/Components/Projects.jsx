@@ -18,7 +18,7 @@ const Projects = () => {
           </div>
           <div className="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
             {projectDetails.map((project) => (
-              <a href={project.link} target="new" key={project.id}>
+              <div href={project.link} target="new" key={project.id}>
                 <div className="btn items-center bg-pdark hover:bg-plight rounded-lg shadow sm:flex text-white hover:text-pdark">
                   <div className="p-5">
                     <h3 className="text-xl font-bold tracking-tight ">
@@ -30,7 +30,7 @@ const Projects = () => {
                     </p>
                   </div>
                 </div>
-              </a>
+              </div>
             ))}
           </div>
         </div>
