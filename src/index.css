@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #725da4;
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: grayscale;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+.text-log {
+  color: #090809;
+}
+
+.text-theme {
+  color: #725da4;
+}
+.text-descrption {
+  size: 5.5rem;
+}
+.montserrat-custom {
+  font-family: "Google Sans Text", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  color: white;
+  line-height: 24px;
+}

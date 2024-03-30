@@ -1,0 +1,120 @@
+.head-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: end;
+  margin: 0 40px; /* Add some left margin */
+  padding: 0 30px;
+}
+
+.home-title {
+  font-family: "montserrat-medium", sans-serif;
+  font-size: 1.5rem;
+  color: #d2c4e6;
+}
+
+.home-text {
+  font-size: 4rem !important;
+  font-family: "montserrat-medium", sans-serif;
+  font-weight: 550 !important;
+}
+
+.skill-text {
+  font-size: 2.2rem !important;
+  font-family: "montserrat-medium", sans-serif;
+  font-weight: 550 !important;
+}
+
+.skills {
+  color: white;
+  /* font-size: 12rem; */
+}
+.skill-content {
+  color: #d2c4e6;
+  font-family: "montserrat-medium", sans-serif;
+  font-weight: 560;
+}
+/* .home-content__line {
+  right: 7.2rem;
+  display: block;
+  width: 2px;
+  height: 10.2rem;
+  background-color: #d2c4e6;
+  position: absolute;
+  right: 7.2rem;
+  bottom: 0;
+} */
+
+/* head-control-box */
+
+::selection {
+  background-color: #090809; /* Change the selection background color */
+  color: white; /* Change the text color */
+}
+
+button {
+  border: 4px solid #d2c4e6;
+}
+
+button:hover {
+  background-color: #d2c4e6; /* Change background color to red */
+}
+
+.About-Me {
+  background-color: white;
+  color: #725da4;
+  font-weight: 800;
+}
+.about-text-h {
+  font-size: 2rem;
+  font-weight: 20;
+}
+
+.Skills-page {
+  background-color: #725da4;
+}
+
+@media only screen and (max-width: 1124px) {
+  .home-text {
+    font-size: 2.5rem !important;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .home-text {
+  }
+}
+@media only screen and (max-width: 744px) {
+  .home-title {
+    font-size: 1.3rem;
+  }
+  .home-text {
+    font-size: 2rem !important;
+  }
+  .head-box {
+    display: flex;
+    align-items: end; /* Align items vertically at the center */
+    justify-content: center; /* Center the box horizontally */
+    margin: 0 auto; /* Center the box horizontally */
+    max-width: 600px; /* Set maximum width for the box */
+    padding: 20px 30px; /* Adjust padding as needed */
+    text-align: center; /* Center-align text content */
+  }
+}
+
+@media only screen and (max-width: 558px) {
+  .home-title {
+    font-size: 1.3rem;
+  }
+  .home-text {
+    font-size: 1.5rem !important;
+  }
+  .head-box {
+    display: flex;
+    align-items: end; /* Align items vertically at the center */
+    justify-content: center; /* Center the box horizontally */
+    margin: 0 auto; /* Center the box horizontally */
+    max-width: 600px; /* Set maximum width for the box */
+    padding: 20px 30px; /* Adjust padding as needed */
+    text-align: center; /* Center-align text content */
+  }
+}
