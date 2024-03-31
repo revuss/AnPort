@@ -1,10 +1,11 @@
 import Lenis from "@studio-freight/lenis";
 import { useEffect } from "react";
+import { Helmet } from "react-helmet";
 import HomeLanding from "./Components/HomeLanding";
 import AboutMe from "./Components/AboutMe";
 import Projects from "./Components/Projects";
-import Skills from "./Components/Skills";
 import Contact from "./Components/Contact";
+import personSchema from "./Components/AboutmeFiles/personSchema.json";
 
 function App() {
   useEffect(() => {
@@ -30,6 +31,11 @@ function App() {
       <AboutMe />
       <Projects />
       <Contact />
+      <Helmet>
+        <script type="application/ld+json">
+          {JSON.stringify(personSchema)}
+        </script>
+      </Helmet>
     </>
   );
 }

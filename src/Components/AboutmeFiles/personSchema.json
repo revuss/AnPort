@@ -1,0 +1,11 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Person",
+  "name": "Sarath",
+  "jobTitle": "Full Stack Developer",
+  "url": "https://sarath-portfolio-henna.vercel.app/",
+  "sameAs": [
+    "https://www.linkedin.com/in/revus-t-7b6670183/",
+    "https://github.com/revuss"
+  ]
+}
