@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
 
 const Contact = () => {
@@ -115,7 +115,7 @@ const Contact = () => {
                           autoComplete="given-name"
                           placeholder="Your name"
                           className="mb-2 w-full focus:outline-none focus:ring-2 focus:ring-plight focus:border-transparent rounded-md placeholder-plight bg-pdark  border border-plight py-2 pl-2 pr-4 shadow-md text-white sm:mb-0"
-                          name="name"
+                          name="user_name"
                         />
                       </div>
                       <div className="mx-0 mb-1 sm:mb-4">
@@ -133,7 +133,7 @@ const Contact = () => {
                           autoComplete="email"
                           placeholder="Your email address"
                           className="mb-2 focus:outline-none focus:ring-2 focus:ring-plight focus:border-transparent w-full placeholder-plight  rounded-md border border-plight py-2 pl-2 pr-4 shadow-md text-white bg-pdark sm:mb-0"
-                          name="email"
+                          name="user_email"
                           required
                         />
                       </div>
@@ -145,7 +145,7 @@ const Contact = () => {
                       ></label>
                       <textarea
                         id="textarea"
-                        name="textarea"
+                        name="message"
                         value={message}
                         onChange={(e) => {
                           setmessage(e.target.value);
